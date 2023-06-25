@@ -12,6 +12,9 @@ body {
 p, li {
     color: rgb(238, 227, 227);
     font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 h1 {
@@ -29,6 +32,11 @@ h2 {
     
 }
 
+#bootcamp {
+    image-resolution: 960, 540;
+    height: 960;
+    width: 540;
+}
 .header {
     padding: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -39,6 +47,15 @@ h2 {
 
 }
 
+#horiseon {
+    font-size: 90px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+    
+}
 a {
     color: black;
 }
@@ -55,6 +72,7 @@ a {
 
 .card {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     padding: 20px;
     justify-content: center;
@@ -83,7 +101,7 @@ li {
 }
 @media screen and (max-width:1200px) {
     main {
-        flex: 1;
+        flex: 1 0 0;
     }
 
     img {
