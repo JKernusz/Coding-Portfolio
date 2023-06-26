@@ -23,7 +23,7 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Link to deployed website
-![screenshot](image-2.png) 
+![screenshot](image-2.png) https://jkernusz.github.io/Coding-Portfolio/
 ## license
     MIT License
 
