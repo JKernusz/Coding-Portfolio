@@ -1,3 +1,4 @@
+/* Style for whole page */
 *{
     box-sizing: border-box;
     padding: 0;
@@ -8,7 +9,7 @@ body {
     background-color: rgb(160, 159, 159);
     display: block;
 }
-
+/* style for all list items and p tags */
 p, li {
     color: rgb(238, 227, 227);
     font-size: 20px;
@@ -18,8 +19,8 @@ p, li {
 }
 
 h1 {
-color: rgb(228, 228, 145);
-font-size: 100px;
+    color: rgb(228, 228, 145);
+    font-size: 100px;
 }
 
 h2 {
@@ -31,7 +32,7 @@ h2 {
     padding: 40px;
     
 }
-
+/* bootcamp picture style */
 #bootcamp {
     image-resolution: 960, 540;
     height: 960;
@@ -46,9 +47,9 @@ h2 {
     align-items: center;
 
 }
-
+/* horiseon picture style */
 #horiseon {
-    font-size: 90px;
+    
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -56,6 +57,7 @@ h2 {
     cursor: pointer;
     
 }
+/* hyperlink text color */
 a {
     color: black;
 }
@@ -69,7 +71,7 @@ a {
     position: center;
 
 }
-
+/* card settings across all sections */
 .card {
     display: flex;
     flex-direction: row;
@@ -91,11 +93,11 @@ ul {
     justify-content: center;
     
 }
-
+/* fixes list item color for "E-mail" on line 64 of index.html */
 li {
     color: black;
 }
-
+/* fixes email hyperlink color to match phone number */
 #E-mail {
     color: white;
 }
